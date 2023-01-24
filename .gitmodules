@@ -1,0 +1,3 @@
+[submodule "tamu_personal_website"]
+	path = tamu_personal_website
+	url = git@github.com:colemcanelly/tamu_personal_website.git
