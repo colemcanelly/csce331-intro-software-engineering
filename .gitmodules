@@ -1,6 +1,12 @@
-[submodule "tamu_personal_website"]
-	path = tamu_personal_website
-	url = git@github.com:colemcanelly/tamu_personal_website.git
 [submodule "labs/lab2_git"]
 	path = labs/lab2_git
 	url = git@github.com:csce-331-ritchey-2023a/lab-exercise-intro-to-git-colemcanelly.git
+[submodule "cfa_project3"]
+	path = p3_cfa.vue
+	url = git@github.com:colemcanelly/csce331-p3-cfa-web-pos.git
+[submodule "project2"]
+	path = p2_cfa.java
+	url = git@github.com:colemcanelly/csce331-cfa-pos-system.git
+[submodule "p1_website"]
+	path = p1_mysite.html
+	url = git@github.com:colemcanelly/tamu_personal_website.git

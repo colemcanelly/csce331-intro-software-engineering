@@ -1,0 +1,11 @@
+# \set PROMPT1 '%[%033[1;32m%][%`hostname -i`]%[%033[0m%]:%[%033[1;34m%]%/%R%[%033[0m%]%# '
+
+COLOR="\set PROMPT1 '%[%033[1;32m%][%\`hostname -i\`]%[%033[0m%]:%[%033[1;34m%]%/%R%[%033[0m%]%# '"
+HOST='csce-315-db.engr.tamu.edu'
+DB='csce315331_delta'
+MASTER='csce315331_delta_master'
+USER='csce315331_mcanelly'
+
+alias psqlcolor='echo "${COLOR}"'
+alias psqlmaster='psql -h ${HOST} -U ${MASTER} -d ${DB}';
+alias psqlme='psql -h ${HOST} -U ${USER} -d ${DB}'
